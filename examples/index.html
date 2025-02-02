@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bangladesh District Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>Loading map...</p>
+  </div>
+  <div id="content" style="display: none;">
+    <div class="container">
+      <div class="map-container">
+        <img id="map" src="../bd.png" alt="Map of Bangladesh">
+      </div>
+      <div class="district-list">
+        <h2>Districts</h2>
+        <div id="districts" class="tags">
+          <!-- Districts will be populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
