@@ -14,6 +14,4 @@ A collection of map images for Bangladesh districts, where each district is high
 ## Interactive Example
 Demo in `examples/index.html` — hover district tags to highlight on map. Run `python -m http.server 8000` and visit `http://localhost:8000/examples/index.html`.
 
-## Usage
-Use images for dynamic district highlighting in apps, reports, or presentations.
-
+![screenshot](screenshot.png)
